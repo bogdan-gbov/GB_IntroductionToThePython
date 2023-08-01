@@ -5,10 +5,10 @@
 """
 
 num = input('Введите трехзначное число: ')
-result = 0
+res = 0
 if len(num) == 3:
     for i in num:
-        result = result + int(i)
-    print(result)
+        res = res + int(i)
+    print(res)
 else:
     print('Число не трехзначное')
