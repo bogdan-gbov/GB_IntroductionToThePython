@@ -11,4 +11,4 @@ if len(num) == 3:
         result = result + int(i)
     print(result)
 else:
-    print('Вы ввели не трехзначное число')
+    print('Число не трехзначное')
