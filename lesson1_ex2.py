@@ -8,9 +8,9 @@
 #n == 2countPetya + 4countPetya
 #countPetya = n/6
 
-n = 6
-
 # Введите ваше решение ниже
+"""
+n = 6
 countPetya = round(n/6)
 countSerezha = round(n/6)
 countKatya = round(2*(countPetya+countSerezha))
@@ -18,3 +18,11 @@ countKatya = round(2*(countPetya+countSerezha))
 count = (countPetya, countKatya, countSerezha)
 
 print(count)
+
+Эталонное решение:
+"""
+n = 6
+n1 = n // 6
+n2 = n // 6
+n3 = (n // 6) * 4
+print(n1, n3, n2)
